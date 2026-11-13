@@ -1,0 +1,17 @@
+KLITZKE WoodCalc Online — primeira versão web
+
+1. Abra index.html em um navegador moderno para fazer o teste local.
+2. O projeto é estático: não precisa de Python, servidor, Render ou internet após os arquivos serem carregados.
+3. Para publicar em uma URL estável, publique TODOS os arquivos e a pasta assets em uma hospedagem estática (ex.: GitHub Pages). O Google Sites permite incorporar essa URL.
+4. Google Sites: Inserir > Incorporar > URL do aplicativo; ajuste a altura do quadro para exibir toda a ferramenta. Alternativamente, uma incorporação de página inteira evita área excessivamente estreita.
+5. O próprio Google Sites aceita HTML/JavaScript incorporado, mas este pacote usa arquivos separados para garantir que as imagens de alta resolução sejam carregadas corretamente. Não basta colar apenas o index.html no campo de código do Sites.
+6. Para usar somente Google Sites sem qualquer hospedagem estática externa, será necessário preparar/testar um pacote HTML autocontido com as imagens embutidas. Essa modalidade ainda não está validada.
+
+Verificar em celulares e computadores antes de distribuir. Pressão fixa: 101,325 kPa.
+Os cálculos foram convertidos de calculos.py da versão 4.1. EMC é a chave matemática interna; TUE é o nome público.
+
+A compensação manual -4 px do eixo X na versão-base foi mantida no arquivo main.js.
+
+Arquivos: index.html, styles.css, calculos.js, main.js, assets/*.
+
+Créditos: Desenvolvimento Leon Henrique Pereira; agradecimento Prof. Dr. Ricardo Jorge Klitzke.
